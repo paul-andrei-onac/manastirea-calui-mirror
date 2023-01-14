@@ -1,4 +1,100 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = ''
+languageCode = 'ro'
+defaultcontentlanguage = "ro"
+title = 'Manastirea Calului'
 theme = 'manastirea-calului'
+disableKinds = ["taxonomy", "taxonomyTerm"]
+disableHugoGeneratorInject = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = "Welink"
+  description = "Jocurile THE FUNNY BRAND, create de Alex Zamfir, sunt excelente pentru o seară de distracție și conectare în familie și/sau cu prietenii."
+  keywords = ["jocuri de societate", "the funny brand", "distractie in familie", "cadoul potrivit", "cadou adolescenti", "emotii si sentimente", "testul relatiei"]
+  favicon = "favicon/favicon.ico"
+  googleMapsLink = ""
+  googleTagManager = ""
+  robotsActive = "index, follow"
+  googleBotActive = "index,follow,snippet,archive"
+  BotsInactive = "noindex, nofollow"
+  themeColorLight = "#000"
+  themeColorDark = "#fff"
+
+[params.hero]
+  button = "Vezi Produsul"
+  link = "#features"
+
+[params.cta]
+  button = "CUMPĂRĂ"
+  LinkCadouri = "https://www.thefunnybrand.com/seturi-cadou"
+
+[[params.social]]
+  icon = "ion-social-facebook"
+  url = "https://www.facebook.com/thefunnybrandcom"
+
+[params.footer]
+  [params.footer.contactInfo]
+    phone   = "0721 298 213"
+    email   = "contact@thefunnybrand.com"
+    copyright = "2022 THE FUNNY BRAND"
+
+[params.utm_measurement]
+  source = ""
+  campaign = ""
+
+[menu]
+  # Main Menu
+  [[menu.main]]
+    name = "Carduri Joc"
+    url = "#carduri"
+    weight = 10
+
+  [[menu.main]]
+    name = "Despre"
+    url = "#despre"
+    weight = 20
+
+  [[menu.main]]
+    name = "Jocul"
+    url = "#jocul"
+    weight = 30
+
+  [[menu.main]]
+    name = "Seturi Cadou"
+    url = "#seturi-cadou"
+    weight = 40
+
+  [[menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 50
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Termeni și Condiții"
+    url = "/termeni-si-conditii"
+    weight = 10
+
+  [[menu.footer]]
+    name = "Politica de Confidențialitate"
+    url = "/politica-de-confidentialitate"
+    weight = 20
+
+  [[menu.footer]]
+    name = "Politica de Cookie-uri"
+    url = "/politica-de-cookies"
+    weight = 30
+
+  [[menu.footer]]
+    name = "ANPC"
+    url = "https://anpc.ro"
+    weight = 40
+
+  [[menu.footer]]
+    name = "ANPC-SAL"
+    url = "https://anpc.ro/ce-este-sal"
+    weight = 50
