@@ -1,0 +1,21 @@
+@import "../abstracts/variables";
+
+.header-area {
+  .navbar {
+    background-color: $gray-800;
+
+    .navbar-nav {
+      .nav-link {
+        color: $gray-300;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+        }
+      }
+    }
+  }
+}
