@@ -27,6 +27,7 @@
 //---------------------------------------------
 
 @import "abstracts/variables";
+@import "base/spacers";
 
 //---------------------------------------------
 // 3. General
@@ -36,8 +37,8 @@ html {
   scroll-behavior: smooth !important;
 }
 
-.display-none {
-  display: none;
+body {
+  background-color: $gray-500;
 }
 
 //---------------------------------------------

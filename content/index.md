@@ -33,10 +33,10 @@ schema:
   url: "https://www.manastirea-calui.com"
 
 #----------------------------------------------------/
-# Gallery Games
+# About section
 #----------------------------------------------------/
-galleryHomepage:
-  title: Manastirea Calui
+aboutHomepage:
+  title: Despre Manastirea Calui
   items:
     
     - title: "Adevăr sau Provocare"
