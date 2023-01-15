@@ -24,24 +24,19 @@ open_graph:
 
 schema:
   type: "Organization"
-  name: "Julie’s Brownies SRL"
-  email: "contact@thefunnybrand.com"
-  telephone: "0721298213"
+  name: "Manastirea Calui"
+  email: "contact@ManastireaCalui.com"
+  telephone: "0753789020"
   logo: "https://jocuri.thefunnybrand.com/assets/daca-as/logo/the-funny-brand-logo.svg"
   image_url: "https://jocuri.thefunnybrand.com/assets/daca-as/hero/daca-as-game.png"
-  description: "“Dacă Aș” este jocul care te provoacă să te pui în diferite situații imposibile au puțin probabile și să te gândești ce ai face. Deși unele întrebări par pentru copii, e foarte interesant când răspund și adulții la ele."
-  sku: "JO01"
-  mpn: "5949235190016"
-  url: "https://www.thefunnybrand.com"
-  price: "59.90"
-  price_available: "2022-12-31"
-
+  description: ""
+  url: "https://www.manastirea-calui.com"
 
 #----------------------------------------------------/
 # Gallery Games
 #----------------------------------------------------/
 galleryHomepage:
-  title: Jocurile <span>The Funny Brand</span>
+  title: Manastirea Calui
   items:
     
     - title: "Adevăr sau Provocare"

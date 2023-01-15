@@ -38,9 +38,9 @@ disableHugoGeneratorInject = true
 
 [params.footer]
   [params.footer.contactInfo]
-    phone   = "0721 298 213"
-    email   = "contact@thefunnybrand.com"
-    copyright = "2022 THE FUNNY BRAND"
+    phone   = "0753 789 020"
+    email   = "gmail@gmailtest.com"
+    copyright = "2023 Manastirea Calui"
 
 [params.utm_measurement]
   source = ""
@@ -49,29 +49,39 @@ disableHugoGeneratorInject = true
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Carduri Joc"
-    url = "#carduri"
+    name = "Acasa"
+    url = "#acasa"
     weight = 10
 
   [[menu.main]]
-    name = "Despre"
-    url = "#despre"
+    name = "Istoric"
+    url = "#istoric"
     weight = 20
 
   [[menu.main]]
-    name = "Jocul"
-    url = "#jocul"
+    name = "Arhitectura"
+    url = "#arhitectura"
     weight = 30
 
   [[menu.main]]
-    name = "Seturi Cadou"
-    url = "#seturi-cadou"
+    name = "Galerie Foto"
+    url = "#galerie-foto"
     weight = 40
+
+  [[menu.main]]
+    name = "Proiect POR 2014-2020"
+    url = "#proiect"
+    weight = 50
+
+  [[menu.main]]
+    name = "Digitalizare 3D"
+    url = "#digitalizare"
+    weight = 60
 
   [[menu.main]]
     name = "Contact"
     url = "#contact"
-    weight = 50
+    weight = 70
 
   # Footer Menu
   [[menu.footer]]
