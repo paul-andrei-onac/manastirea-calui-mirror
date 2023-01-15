@@ -17,8 +17,8 @@ sitemap:
 #----------------------------------------------------/
 open_graph:
   title: "Manastirea Calui"
-  url: "https://jocuri.thefunnybrand.com/"
-  image: "https://jocuri.thefunnybrand.com/og-image/the-funny-brand-social.jpg"
+  url: "https://manastirea-calui.ro/"
+  image: "https://manastirea-calui.ro/og-image/the-funny-brand-social.jpg"
   image_alt: "Manastirea Calui"
   description: ""
 
@@ -27,10 +27,10 @@ schema:
   name: "Manastirea Calui"
   email: "contact@ManastireaCalui.com"
   telephone: "0753789020"
-  logo: "https://jocuri.thefunnybrand.com/assets/daca-as/logo/the-funny-brand-logo.svg"
-  image_url: "https://jocuri.thefunnybrand.com/assets/daca-as/hero/daca-as-game.png"
+  logo: "https://manastirea-calui.ro/assets/daca-as/logo/the-funny-brand-logo.svg"
+  image_url: "https://manastirea-calui.ro/assets/daca-as/hero/daca-as-game.png"
   description: ""
-  url: "https://www.manastirea-calui.com"
+  url: "https://manastirea-calui.ro"
 
 #----------------------------------------------------/
 # About section
