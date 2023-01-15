@@ -1,8 +1,8 @@
 baseURL = ''
 languageCode = 'ro'
 defaultcontentlanguage = "ro"
-title = 'Manastirea Calului'
-theme = 'manastirea-calului'
+title = 'Manastirea Calui'
+theme = 'manastirea-calui'
 disableKinds = ["taxonomy", "taxonomyTerm"]
 disableHugoGeneratorInject = true
 
@@ -12,9 +12,9 @@ disableHugoGeneratorInject = true
       unsafe = true
 
 [params]
-  author = "Welink"
-  description = "Jocurile THE FUNNY BRAND, create de Alex Zamfir, sunt excelente pentru o seară de distracție și conectare în familie și/sau cu prietenii."
-  keywords = ["jocuri de societate", "the funny brand", "distractie in familie", "cadoul potrivit", "cadou adolescenti", "emotii si sentimente", "testul relatiei"]
+  author = "Manastirea Calui"
+  description = ""
+  keywords = ["Manastirea Calui"]
   favicon = "favicon/favicon.ico"
   googleMapsLink = ""
   googleTagManager = ""
@@ -25,16 +25,16 @@ disableHugoGeneratorInject = true
   themeColorDark = "#fff"
 
 [params.hero]
-  button = "Vezi Produsul"
-  link = "#features"
+  button = "Button"
+  link = "#button"
 
 [params.cta]
-  button = "CUMPĂRĂ"
-  LinkCadouri = "https://www.thefunnybrand.com/seturi-cadou"
+  button = "Button"
+  LinkCadouri = "https://www.google.com"
 
 [[params.social]]
-  icon = "ion-social-facebook"
-  url = "https://www.facebook.com/thefunnybrandcom"
+  icon = "fa-facebook"
+  url = "https://www.facebook.com"
 
 [params.footer]
   [params.footer.contactInfo]
