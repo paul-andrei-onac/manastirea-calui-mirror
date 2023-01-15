@@ -33,6 +33,28 @@ schema:
   url: "https://manastirea-calui.ro"
 
 #----------------------------------------------------/
+# Hero
+#----------------------------------------------------/
+hero:
+  items:
+    
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/carousel/gallery-1.jpg"
+      image2x: "/carousel/gallery-1@2x.jpg"
+
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/carousel/gallery-2.jpg"
+      image2x: "/carousel/gallery-2@2x.jpg"
+
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/carousel/gallery-3.jpg"
+      image2x: "/carousel/gallery-3@2x.jpg"
+
+
+#----------------------------------------------------/
 # About section
 #----------------------------------------------------/
 aboutHomepage:
