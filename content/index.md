@@ -1,7 +1,7 @@
 ---
-title: "The Funny Brand"
+title: "Manastirea Calui"
 date: 2022-12-05T15:34:49+02:00
-keywords: ["the funny brand", "cadoul potrivit", "cadou adolescenti", "jocuri de societate", "jocurile the funny brand"]
+keywords: ["Manastirea Calui"]
 draft: false
 type: other
 layout:
@@ -16,11 +16,11 @@ sitemap:
 # Head
 #----------------------------------------------------/
 open_graph:
-  title: "The Funny Brand"
+  title: "Manastirea Calui"
   url: "https://jocuri.thefunnybrand.com/"
   image: "https://jocuri.thefunnybrand.com/og-image/the-funny-brand-social.jpg"
-  image_alt: "Cadou potrivit pentru joacă și distracție în familie și cu prietenii!"
-  description: "Poate fi un cadou frumos atât pentru familia ta, cât și pentru alți prieteni. Și cu siguranță va fi un cadou extrem de folosit."
+  image_alt: "Manastirea Calui"
+  description: ""
 
 schema:
   type: "Organization"
