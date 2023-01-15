@@ -3,7 +3,11 @@
     <div class="row">
       <div class="col-md-6">
         <div class="about-image">
-
+          {{ with .Params.hero }}
+            {{ range first 1 .items }}
+              <img class="img-fluid" src="{{ .image }}" srcset="{{ .image }} 1x, {{ .image2x }} 2x" alt="{{ .title | markdownify }}"> 
+            {{ end }}
+          {{ end }}
         </div>
       </div>
       <div class="col-md-6">
