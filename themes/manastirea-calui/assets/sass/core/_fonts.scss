@@ -22,13 +22,13 @@
 
 @font-face {
   font-family: "Calibri";
-  src: url('fonts/light.ttf') format('truetype');
+  src: url('fonts/calibri-light.ttf') format('truetype');
   font-weight: 100;
 }
 
 @font-face {
   font-family: "Calibri";
-  src: url('fonts/light-italic.ttf') format('truetype');
+  src: url('fonts/calibri-light-italic.ttf') format('truetype');
   font-weight: 100;
   font-style: italic;
 }
@@ -37,6 +37,7 @@
   font-family: "Calibri";
   src: url('fonts/calibri-regular.ttf') format('truetype');
   font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
