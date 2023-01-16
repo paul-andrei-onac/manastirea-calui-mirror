@@ -49,38 +49,38 @@ disableHugoGeneratorInject = true
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Acasa"
-    url = "#acasa"
+    name = "Acasă"
+    url = "/"
     weight = 10
 
   [[menu.main]]
     name = "Istoric"
-    url = "#istoric"
+    url = "/istoric"
     weight = 20
 
   [[menu.main]]
-    name = "Arhitectura"
-    url = "#arhitectura"
+    name = "Arhitectură"
+    url = "/arhitectura"
     weight = 30
 
   [[menu.main]]
     name = "Galerie Foto"
-    url = "#galerie-foto"
+    url = "/galerie-foto"
     weight = 40
 
   [[menu.main]]
     name = "Proiect POR 2014-2020"
-    url = "#proiect"
+    url = "/proiect"
     weight = 50
 
   [[menu.main]]
     name = "Digitalizare 3D"
-    url = "#digitalizare"
+    url = "/digitalizare"
     weight = 60
 
   [[menu.main]]
     name = "Contact"
-    url = "#contact"
+    url = "/contact"
     weight = 70
 
   # Footer Menu
