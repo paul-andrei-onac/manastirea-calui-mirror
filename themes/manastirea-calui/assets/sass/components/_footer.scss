@@ -1,0 +1,33 @@
+@import "../abstracts/variables";
+
+.footer-wrapper {
+  background-color: $white;
+
+  .footer-top-text {
+    text-align: center;
+    color: $primary;
+    font-size: 1.5rem;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: $primary;
+
+    @include media-breakpoint-down(md) {
+      gap: 1rem;
+    }
+  
+    a {
+      color: $primary;
+
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}

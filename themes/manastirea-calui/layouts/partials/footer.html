@@ -1,4 +1,24 @@
-<footer>
+<footer class="footer-wrapper space-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <p class="footer-top-text">Investim în viitorul tău! Proiect cofinanțat din Fondul European
+          de Dezvoltare Regională prin Programul Operațional Regional 2014-2020</p>
+      </div>
+    </div>
+  </div>
+  <img class="img-fluid" src="/footer/footer-image.jpg">
+  <div class="container">
+    <div class="footer-links">
+      <a href="www.inforegio.ro">www.inforegio.ro</a> | <a href="facebook.com/inforegio.ro">facebook.com/inforegio.ro</a>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p class="text-center">Conținutul acestui material nu reprezintă în mod obligatoriu poziția oficială a Uniunii Europene sau a Guvernului României</p>
+      </div>
+    </div>
+  </div>
+
   {{ $script := resources.Get "js/index.js" | js.Build "main.js" | fingerprint }}
   <script src="{{ $script.RelPermalink | absURL }}" async></script>
 </footer>
