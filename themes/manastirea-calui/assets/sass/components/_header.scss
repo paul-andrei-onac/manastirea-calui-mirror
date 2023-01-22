@@ -2,20 +2,19 @@
 
 .header-area {
   .navbar {
+    padding-bottom: 2rem;
+
     .navbar-nav {
       margin: auto;
       gap: 2rem;
     
       li {
         color: $primary;
+        font-size: 1.5rem;
+        list-style: disc;
 
-        @include media-breakpoint-up(xl) {
-          font-size: 1.5rem;
-          list-style: disc;
-
-          &:first-child {
-            list-style: none;
-          }
+        &:first-child {
+          list-style: none;
         }
       }
       
@@ -29,6 +28,45 @@
         &:focus,
         &:active {
           color: $black;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xxl) {
+  .header-area {
+    .navbar {
+      .navbar-nav {
+        gap: 1rem;
+        
+        li {
+          font-size: 1rem;
+          
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  .header-area {
+    .navbar {
+      .navbar-nav {
+        li {
+          font-size: .9rem;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .header-area {
+    .navbar {
+      .navbar-nav {
+        li {
+          list-style: none;
         }
       }
     }
