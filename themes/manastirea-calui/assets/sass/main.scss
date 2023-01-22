@@ -27,10 +27,10 @@
 // 2. Resetting properties
 //---------------------------------------------
 
-@import "core/fonts";
-@import "abstracts/variables";
-@import "core/typography";
-@import "base/spacers";
+@import "core/_fonts";
+@import "abstracts/_variables";
+@import "core/_typography";
+@import "base/_spacers";
 
 //---------------------------------------------
 // 3. General
@@ -48,13 +48,13 @@ body {
 // 4. Pages
 //---------------------------------------------
 
-
+@import "pages/_arhitectura";
 
 //---------------------------------------------
 // 5. Sections
 //---------------------------------------------
 
-@import "components/header";
-@import "components/hero";
-@import "components/gallery";
-@import "components/footer";
+@import "components/_header";
+@import "components/_hero";
+@import "components/_gallery";
+@import "components/_footer";

@@ -10,6 +10,11 @@
     img {
       height: 100%;
       object-fit: cover;
+
+      &:hover {
+        filter: brightness(70%);
+        transition: all 0.3s ease-in-out;
+      }
     }
 
     &.style2 {
