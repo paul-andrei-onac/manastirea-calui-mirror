@@ -1,0 +1,7 @@
+{{ with .Params.gallery }}
+{{ range $index, $items := .items }}
+  <a data-fancybox="gallery" data-src="{{ .image }}" data-srcset="{{ .image }}, {{ .image2x }}" href="javascript:void(0)">
+    <img class="img-fluid" src="{{ .image }}" srcset="{{ .image }} 1x, {{ .image2x }} 2x" alt="{{ .title | markdownify }}"> 
+  </a>
+{{ end }}
+{{ end }}

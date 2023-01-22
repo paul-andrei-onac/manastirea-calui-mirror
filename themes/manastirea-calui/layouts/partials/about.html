@@ -4,7 +4,7 @@
       <div class="col-md-6">
         <div class="about-image">
           {{ with .Params.hero }}
-            {{ range first 1 .items }}
+          {{ range $index, $items := first 1 .items }}
               <img class="img-fluid" src="{{ .image }}" srcset="{{ .image }} 1x, {{ .image2x }} 2x" alt="{{ .title | markdownify }}"> 
             {{ end }}
           {{ end }}
@@ -13,7 +13,7 @@
       <div class="col-md-6">
         <div class="about-text">
           {{ with .Params.aboutHomepage }}
-            <h2>{{ .title | markdownify }}</h2>
+            <h1>{{ .title | markdownify }}</h2>
             <p>{{ .description | markdownify }}</p>
           {{ end }}
         </div>
