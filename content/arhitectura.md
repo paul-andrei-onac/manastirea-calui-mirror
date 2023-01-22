@@ -30,17 +30,62 @@ gallery:
 
     - title: "Manastirea Calui"
       link: ""
-      image: "/carousel/gallery-1.jpg"
-      image2x: "/carousel/gallery-1@2x.jpg"
+      image: "/arhitectura/etapa-2-1.jpg"
+      image2x: "/arhitectura/etapa-2-1@2x.jpg"
 
     - title: "Manastirea Calui"
       link: ""
-      image: "/carousel/gallery-2.jpg"
-      image2x: "/carousel/gallery-2@2x.jpg"
+      image: "/arhitectura/etapa-2-2.jpg"
+      image2x: "/arhitectura/etapa-2-2@2x.jpg"
 
     - title: "Manastirea Calui"
       link: ""
-      image: "/carousel/gallery-3.jpg"
-      image2x: "/carousel/gallery-3@2x.jpg"
+      image: "/arhitectura/etapa-2-3.jpg"
+      image2x: "/arhitectura/etapa-2-3@2x.jpg"
+
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/arhitectura/etapa-2-4.jpg"
+      image2x: "/arhitectura/etapa-2-4@2x.jpg"
+
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/arhitectura/etapa-2-5.jpg"
+      image2x: "/arhitectura/etapa-2-5@2x.jpg"
+
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/arhitectura/etapa-2-6.jpg"
+      image2x: "/arhitectura/etapa-2-6@2x.jpg"
+
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/arhitectura/etapa-2-7.jpg"
+      image2x: "/arhitectura/etapa-2-7@2x.jpg"
+
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/arhitectura/etapa-2-8.jpg"
+      image2x: "/arhitectura/etapa-2-8@2x.jpg"
+
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/arhitectura/etapa-2-9.jpg"
+      image2x: "/arhitectura/etapa-2-9@2x.jpg"
+
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/arhitectura/etapa-2-10.jpg"
+      image2x: "/arhitectura/etapa-2-10@2x.jpg"
+
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/arhitectura/etapa-2-11.jpg"
+      image2x: "/arhitectura/etapa-2-11@2x.jpg"
+
+    - title: "Manastirea Calui"
+      link: ""
+      image: "/arhitectura/etapa-2-12.jpg"
+      image2x: "/arhitectura/etapa-2-12@2x.jpg"
 
 ---
