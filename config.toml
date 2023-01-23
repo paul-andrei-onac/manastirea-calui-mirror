@@ -38,8 +38,10 @@ disableHugoGeneratorInject = true
 
 [params.footer]
   [params.footer.contactInfo]
-    phone   = "0753 789 020"
-    email   = "gmail@gmailtest.com"
+    address = "Şos. Frații Buzești nr. 209, sat Gura Căluiu, comuna Călui, judeţul Olt"
+    phone = "0249 / 421.026"
+    fax = "0246 / 214.081"
+    person = "Ieromonarh Macarie (Mirel DRÎMBĂ)"
     copyright = "2023 Manastirea Calui"
 
 [params.utm_measurement]
