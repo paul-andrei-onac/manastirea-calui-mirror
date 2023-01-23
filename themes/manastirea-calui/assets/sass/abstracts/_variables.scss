@@ -22,24 +22,22 @@ $font-familiy-base: "Calibri", sans-serif;
 
 ::selection {
   color: $white;
-  background-color: $primary;
+  background-color: $secondary;
 }
 
 //---------------------------------------------
 // 3. Colors
 //---------------------------------------------
 
-.primary-pages {
-  --primary-color: #183a97;
-  --secondary-color: #FBB040;
-  --tertiary-color: #BF1E2F;
+:root {
+  --bs-primary: #183a97;
+  --bs-secondary: #f14c38;
 }
 
-$primary: #183a97;
-$secondary: var(--secondary-color);
-$tertiary: var(--tertiary-color);
+$primary: var(--bs-primary);
+$secondary: var(--bs-secondary);
 
-$body-color: #3a3a3a;
+$body-color: #363636;
 
 //---------------------------------------------
 // 4. Container Width

@@ -1,5 +1,5 @@
 ---
-title: "Gallery"
+title: "Galerie Foto | Mănăstirea Calui"
 keywords: ["Manastirea Calui"]
 date: 2023-01-22T14:41:11+02:00
 draft: false
@@ -12,6 +12,12 @@ sitemap:
   filename: sitemap.xml
   priority: 1
 
+
+#----------------------------------------------------/
+# Page
+#----------------------------------------------------/
+page:
+  title: "Vizualizați Mănăstirea în <span>Galeria Noastră</span>"
 
 #----------------------------------------------------/
 # Gallery

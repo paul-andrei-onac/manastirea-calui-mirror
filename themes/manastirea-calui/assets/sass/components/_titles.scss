@@ -1,0 +1,19 @@
+@import "../abstracts/variables";
+
+.title-area {
+  .sec-title {
+    font-weight: $font-weight-bold;
+
+    span {
+      color: $secondary;
+    }
+  }
+
+  hr {
+    width: 10%;
+    margin: auto;
+    margin-top: 1rem;
+    border-top: 3px solid $secondary;
+    opacity: .9;
+  }
+}

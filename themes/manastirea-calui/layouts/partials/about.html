@@ -11,9 +11,9 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="about-text">
+        <div class="title-area">
           {{ with .Params.aboutHomepage }}
-            <h2>{{ .title | markdownify }}</h2>
+            <h2 class="sec-title">{{ .title | markdownify }}</h2>
             <p>{{ .description | markdownify }}</p>
           {{ end }}
         </div>
