@@ -61,18 +61,18 @@ disableHugoGeneratorInject = true
     weight = 20
 
   [[menu.main]]
-    name = "Arhitectură"
-    url = "/arhitectura"
+    name = "Proiect 1"
+    url = "/proiect1"
     weight = 30
+
+  [[menu.main]]
+    name = "Proiect 2"
+    url = "/proiect2"
+    weight = 40
 
   [[menu.main]]
     name = "Galerie Foto"
     url = "/galerie-foto"
-    weight = 40
-
-  [[menu.main]]
-    name = "Proiect POR 2014-2020"
-    url = "/proiect"
     weight = 50
 
   [[menu.main]]

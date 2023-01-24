@@ -14,7 +14,9 @@
         <div class="title-area">
           {{ with .Params.aboutHomepage }}
             <h2 class="sec-title">{{ .title | markdownify }}</h2>
-            <p>{{ .description | markdownify }}</p>
+            <p>{{ .description | safeHTML }}</p>
+            <a class="btn btn-warning" href="/proiect1" role="button">Vezi Etapa 1</a>
+            <a class="btn btn-warning" href="/proiect2" role="button">Vezi Etapa 2</a>
           {{ end }}
         </div>
       </div>

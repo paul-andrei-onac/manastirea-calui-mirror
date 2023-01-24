@@ -4,7 +4,7 @@ keywords: ["Manastirea Calui"]
 date: 2023-01-22T13:08:13+02:00
 draft: false
 type: page
-layout: arhitectura
+layout: proiect1
 sitemap_exclude: false
 
 sitemap:
