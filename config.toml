@@ -71,8 +71,8 @@ disableHugoGeneratorInject = true
     weight = 40
 
   [[menu.main]]
-    name = "Galerie Foto"
-    url = "/galerie-foto"
+    name = "Galerie"
+    url = "/galerie"
     weight = 50
 
   [[menu.main]]

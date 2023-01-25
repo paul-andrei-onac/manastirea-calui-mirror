@@ -1,23 +1,22 @@
 ---
-title: "Contact | Mănăstirea Calui"
+title: "Proiect 2 | Mănăstirea Calui"
 keywords: ["Manastirea Calui"]
-date: 2023-01-23T22:23:33+02:00
+date: 2023-01-25T23:41:34+02:00
 draft: false
 type: page
-layout: contact
+layout: proiect2
 sitemap_exclude: false
 
 sitemap:
   changefreq: weekly
   filename: sitemap.xml
   priority: 1
-
+  
 
 #----------------------------------------------------/
-# Contact
+# Page
 #----------------------------------------------------/
 page:
-  title: "Cont<span>act</span>"
-
+  title: "Proiect <span>2</span>"
 
 ---
