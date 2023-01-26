@@ -2,21 +2,19 @@
 
 {{ define "main" }}
 
-{{ partial "hero" . }}
-
 <section class="homepage-wrapper space-top space-bottom">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <div class="homepage-image mb-3">
-          {{ with .Params.hero }}
+          {{ with .Params.page.image }}
           {{ range $index, $items := first 1 .items }}
               <img class="img-fluid" src="{{ .image }}" srcset="{{ .image }} 1x, {{ .image2x }} 2x" alt="{{ .title | markdownify }}"> 
             {{ end }}
           {{ end }}
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <div class="title-area">
           {{ with .Params.page }}
           <h1 class="sec-title">{{ .title | safeHTML }}</h1>

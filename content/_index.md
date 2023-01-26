@@ -31,28 +31,7 @@ schema:
   image_url: "https://manastirea-calui.ro/assets/daca-as/hero/daca-as-game.png"
   description: ""
   url: "https://manastirea-calui.ro"
-
-#----------------------------------------------------/
-# Hero
-#----------------------------------------------------/
-hero:
-  items:
-    
-    - title: "Mănăstirea Călui"
-      link: ""
-      image: "/carousel/gallery-1.jpg"
-      image2x: "/carousel/gallery-1@2x.jpg"
-
-    - title: "Mănăstirea Călui"
-      link: ""
-      image: "/carousel/gallery-2.jpg"
-      image2x: "/carousel/gallery-2@2x.jpg"
-
-    - title: "Mănăstirea Călui"
-      link: ""
-      image: "/carousel/gallery-3.jpg"
-      image2x: "/carousel/gallery-3@2x.jpg"
-
+  
 
 #----------------------------------------------------/
 # Page
@@ -68,6 +47,24 @@ page:
   <br>
   <br>
   Interiorul păstrează un ansamblu de picturi murale realizate de meșterul zugrav Mina între anii 1593-1594, care îi înfățișează pe Frații Radu, Preda și Stroe Buzescu, precum și un tablou cu domnii Mihai Viteazu și Petru Cercel. Biserica a fost renovată în anii 1650, 1828, 1834 și amplu restaurată în 1932-1937."
+
+  image:
+    items:
+      
+      - title: "Mănăstirea Călui"
+        link: ""
+        image: "/carousel/gallery-1.jpg"
+        image2x: "/carousel/gallery-1@2x.jpg"
+
+      - title: "Mănăstirea Călui"
+        link: ""
+        image: "/carousel/gallery-2.jpg"
+        image2x: "/carousel/gallery-2@2x.jpg"
+
+      - title: "Mănăstirea Călui"
+        link: ""
+        image: "/carousel/gallery-3.jpg"
+        image2x: "/carousel/gallery-3@2x.jpg"
 
 
 ---
