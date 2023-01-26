@@ -1,0 +1,11 @@
+@import "../abstracts/variables";
+
+.btn-prime {
+  background-color: $secondary;
+  color: $white;
+
+  &:hover {
+    color: $white;
+    background: darken($secondary, 10%)
+  }
+}

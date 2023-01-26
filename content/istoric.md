@@ -1,5 +1,5 @@
 ---
-title: "Istoric | Mănăstirea Calui"
+title: "Istoric | Mănăstirea Călui"
 keywords: ["Manastirea Calui"]
 date: 2023-01-25T22:53:20+02:00
 draft: false

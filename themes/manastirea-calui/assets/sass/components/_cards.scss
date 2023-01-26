@@ -1,0 +1,9 @@
+@import "../abstracts/variables";
+
+.card-header {
+  background-color: $secondary;
+
+  .card-title {
+    color: $white;
+  }
+}

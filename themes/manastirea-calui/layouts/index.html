@@ -4,6 +4,33 @@
 
 {{ partial "hero" . }}
 
-{{ partial "about" . }}
+<section class="about-homepage space-top space-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about-image">
+          {{ with .Params.hero }}
+          {{ range $index, $items := first 1 .items }}
+              <img class="img-fluid" src="{{ .image }}" srcset="{{ .image }} 1x, {{ .image2x }} 2x" alt="{{ .title | markdownify }}"> 
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="title-area">
+          {{ with .Params.page }}
+          <h1 class="sec-title">{{ .title | safeHTML }}</h1>
+          {{ end }}
+          <hr class="m-0">
+          {{ with .Params.page }}
+            <p class="mt-3">{{ .description | safeHTML }}</p>
+            <a class="btn btn-prime" href="/proiect1" role="button">Vezi Proiect 1</a>
+            <a class="btn btn-prime ms-3" href="/proiect2" role="button">Vezi Proiect 2</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 {{ end }}

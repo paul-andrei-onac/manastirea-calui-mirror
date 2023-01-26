@@ -1,5 +1,5 @@
 ---
-title: "Proiect 1 | Mănăstirea Calui"
+title: "Proiect 1 | Mănăstirea Călui"
 keywords: ["Manastirea Calui"]
 date: 2023-01-22T13:08:13+02:00
 draft: false

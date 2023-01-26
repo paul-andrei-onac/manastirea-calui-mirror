@@ -1,5 +1,5 @@
 ---
-title: "Contact | Mănăstirea Calui"
+title: "Contact | Mănăstirea Călui"
 keywords: ["Manastirea Calui"]
 date: 2023-01-23T22:23:33+02:00
 draft: false

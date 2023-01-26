@@ -29,13 +29,8 @@ $font-familiy-base: "Calibri", sans-serif;
 // 3. Colors
 //---------------------------------------------
 
-:root {
-  --bs-primary: #183a97;
-  --bs-secondary: #f14c38;
-}
-
-$primary: var(--bs-primary);
-$secondary: var(--bs-secondary);
+$primary: #183a97;
+$secondary: #f14c38;
 
 $body-color: #363636;
 

@@ -1,7 +1,7 @@
 baseURL = ''
 languageCode = 'ro'
 defaultcontentlanguage = "ro"
-title = 'Manastirea Calui'
+title = 'Mănăstirea Călui'
 theme = 'manastirea-calui'
 disableKinds = ["taxonomy", "taxonomyTerm"]
 disableHugoGeneratorInject = true
