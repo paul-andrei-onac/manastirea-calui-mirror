@@ -24,29 +24,13 @@ disableHugoGeneratorInject = true
   themeColorLight = "#000"
   themeColorDark = "#fff"
 
-[params.hero]
-  button = "Button"
-  link = "#button"
-
-[params.cta]
-  button = "Button"
-  LinkCadouri = "https://www.google.com"
-
-[[params.social]]
-  icon = "fa-facebook"
-  url = "https://www.facebook.com"
-
 [params.footer]
   [params.footer.contactInfo]
     address = "Şos. Frații Buzești nr. 209, sat Gura Căluiu, comuna Călui, judeţul Olt"
     phone = "0249 / 421.026"
     fax = "0246 / 214.081"
     person = "Ieromonarh Macarie (Mirel DRÎMBĂ)"
-    copyright = "2023 Manastirea Calui"
-
-[params.utm_measurement]
-  source = ""
-  campaign = ""
+    copyright = "2023 Mănăstirea Călui"
 
 [menu]
   # Main Menu
@@ -76,37 +60,6 @@ disableHugoGeneratorInject = true
     weight = 50
 
   [[menu.main]]
-    name = "Digitalizare 3D"
-    url = "/digitalizare"
-    weight = 60
-
-  [[menu.main]]
     name = "Contact"
     url = "/contact"
-    weight = 70
-
-  # Footer Menu
-  [[menu.footer]]
-    name = "Termeni și Condiții"
-    url = "/termeni-si-conditii"
-    weight = 10
-
-  [[menu.footer]]
-    name = "Politica de Confidențialitate"
-    url = "/politica-de-confidentialitate"
-    weight = 20
-
-  [[menu.footer]]
-    name = "Politica de Cookie-uri"
-    url = "/politica-de-cookies"
-    weight = 30
-
-  [[menu.footer]]
-    name = "ANPC"
-    url = "https://anpc.ro"
-    weight = 40
-
-  [[menu.footer]]
-    name = "ANPC-SAL"
-    url = "https://anpc.ro/ce-este-sal"
-    weight = 50
+    weight = 60

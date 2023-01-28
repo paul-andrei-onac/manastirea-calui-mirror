@@ -8,12 +8,15 @@
   .nav-item {
     .nav-link {
       background-color: $white;
-      color: $secondary;
-      font-weight: $font-weight-bold;
+      color: $body-color;
+      font-weight: $font-weight-normal;
+      border: 1px solid $body-color;
+      border-radius: 0;
 
       &.active {
         background-color: $secondary;
         color: $white;
+        border: 1px solid $secondary;
       }
     }
   }
