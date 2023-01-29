@@ -29,6 +29,10 @@
         &:active {
           color: $secondary;
         }
+
+        &.active {
+          color: $secondary;
+        }
       }
     }
   }

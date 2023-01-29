@@ -41,25 +41,25 @@ disableHugoGeneratorInject = true
 
   [[menu.main]]
     name = "Istoric"
-    url = "/istoric"
+    url = "/istoric/"
     weight = 20
 
   [[menu.main]]
     name = "Proiect 1"
-    url = "/proiect1"
+    url = "/proiect1/"
     weight = 30
 
   [[menu.main]]
     name = "Proiect 2"
-    url = "/proiect2"
+    url = "/proiect2/"
     weight = 40
 
   [[menu.main]]
     name = "Galerie"
-    url = "/galerie"
+    url = "/galerie/"
     weight = 50
 
   [[menu.main]]
     name = "Contact"
-    url = "/contact"
+    url = "/contact/"
     weight = 60
