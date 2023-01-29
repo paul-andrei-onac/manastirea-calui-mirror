@@ -25,6 +25,17 @@ disableHugoGeneratorInject = true
   themeColorDark = "#fff"
 
 [params.footer]
+  [params.footer.info]
+  heading = "Investim în viitorul tău! Proiect cofinanțat din Fondul European de Dezvoltare Regională prin Programul Operațional Regional 2014-2020"
+  text = "Conținutul acestui material nu reprezintă în mod obligatoriu poziția oficială a Uniunii Europene sau a Guvernului României"
+  [[params.footer.links]]
+    title = "www.inforegio.ro"
+    url = "https://www.inforegio.ro"
+
+  [[params.footer.links]]
+    title = "facebook.com/inforegio.ro"
+    url = "https://facebook.com/inforegio.ro"
+
   [params.footer.contactInfo]
     address = "Şos. Frații Buzești nr. 209, sat Gura Căluiu, comuna Călui, judeţul Olt"
     phone = "0249 / 421.026"

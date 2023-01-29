@@ -21,6 +21,12 @@
     @include media-breakpoint-down(md) {
       gap: 1rem;
     }
+
+    span {
+      &:last-child {
+        display: none;
+      }
+    }
   
     a {
       color: $primary;
