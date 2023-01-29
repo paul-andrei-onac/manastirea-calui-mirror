@@ -18,7 +18,7 @@ sitemap:
 open_graph:
   title: "Mănăstirea Călui"
   url: "https://manastirea-calui.ro/"
-  image: "https://manastirea-calui.ro/og-image/the-funny-brand-social.jpg"
+  image: "https://manastirea-calui.ro/carousel/gallery-1@2x.jpg"
   image_alt: "Mănăstirea Călui"
   description: ""
 
@@ -27,8 +27,8 @@ schema:
   name: "Manastirea Calui"
   email: "contact@ManastireaCalui.com"
   telephone: "0753789020"
-  logo: "https://manastirea-calui.ro/assets/daca-as/logo/the-funny-brand-logo.svg"
-  image_url: "https://manastirea-calui.ro/assets/daca-as/hero/daca-as-game.png"
+  logo: "https://manastirea-calui.ro/carousel/gallery-1@2x.jpg"
+  image_url: "https://manastirea-calui.ro/carousel/gallery-1@2x.jpg"
   description: ""
   url: "https://manastirea-calui.ro"
   
