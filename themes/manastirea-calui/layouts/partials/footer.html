@@ -1,25 +1,24 @@
-<footer class="footer-wrapper space-top">
+<footer class="footer-wrapper">
   <div class="container">
     <div class="row">
       <div class="col-md-8 mx-auto">
         {{ with .Site.Params.footer.info }}
-        <p class="footer-top-text">{{ .heading }}</p>
+        <p class="footer-european">{{ .heading }}</p>
         {{ end }}
       </div>
     </div>
   </div>
-  <img class="img-fluid" src="/footer/footer-image.jpg">
+  <img class="img-fluid" src="/footer/footer-image.png">
   <div class="container">
     <div class="footer-links">
       {{ range .Site.Params.footer.links }}
       <a href="{{ .url }}" target="_blank">{{ .title }}</a> <span>|</span>
       {{ end }}
-      {{/*  <a href="https://www.inforegio.ro" target="_blank">www.inforegio.ro</a> | <a href="https://facebook.com/inforegio.ro" target="_blank">facebook.com/inforegio.ro</a>  */}}
     </div>
     <div class="row">
       <div class="col-12">
         {{ with .Site.Params.footer.info }}
-        <p class="text-center">{{ .text }}</p>
+        <p class="footer-info">{{ .text }}</p>
         {{ end }}
       </div>
     </div>

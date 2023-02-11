@@ -1,8 +1,16 @@
 @import "../abstracts/variables";
 
 .header-area {
+  .header-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .navbar {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 
     .navbar-nav {
       margin: auto;
@@ -35,6 +43,15 @@
         }
       }
     }
+
+    .navbar-toggler {
+      padding: 0;
+      width: 100%;
+
+      &:focus {
+        box-shadow: 0 0 0 .2rem $secondary;
+      }
+    }
   }
 }
 
@@ -43,22 +60,6 @@
     .navbar {
       .navbar-nav {
         gap: 1rem;
-        
-        li {
-          font-size: 1rem;
-        }
-      }
-    }
-  }
-}
-
-@include media-breakpoint-down(xl) {
-  .header-area {
-    .navbar {
-      .navbar-nav {
-        li {
-          font-size: .9rem;
-        }
       }
     }
   }
@@ -68,11 +69,44 @@
   .header-area {
     .navbar {
       .navbar-nav {
+        li {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .header-area {
+    .navbar {
+      .navbar-nav {
         gap: unset;
         
         li {
+          font-size: 1rem;
           list-style: none;
         }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .header-area {
+    .header-grid {
+      img {
+        height: 70px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .header-area {
+    .header-grid {
+      img {
+        height: 50px;
       }
     }
   }
