@@ -3,3 +3,7 @@
 img {
   border-radius: 6px;
 }
+
+.ratio > iframe {
+  border: 1px solid $secondary !important;
+}
