@@ -45,10 +45,5 @@ page:
         image: "/carousel/gallery-2.jpg"
         image2x: "/carousel/gallery-2@2x.jpg"
 
-      - title: "Mănăstirea Călui"
-        link: ""
-        image: "/carousel/gallery-3.jpg"
-        image2x: "/carousel/gallery-3@2x.jpg"
-
 
 ---
