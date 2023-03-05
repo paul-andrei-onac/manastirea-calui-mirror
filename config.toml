@@ -4,7 +4,7 @@ defaultcontentlanguage = "ro"
 title = 'Mănăstirea Călui'
 theme = 'manastirea-calui'
 disableKinds = ["taxonomy", "taxonomyTerm"]
-disableHugoGeneratorInject = true
+disableHugoGeneratorInject = false
 
 [markup]
   [markup.goldmark]
