@@ -13,7 +13,7 @@ disableHugoGeneratorInject = true
 
 [params]
   author = "Manastirea Calui"
-  description = ""
+  description = "Mânăstirea Călui se află pe malul Oltețului, în apropiere de Craiova, nu departe de comuna Oboga, comuna renumită pentru ceramica ei populară."
   keywords = ["Manastirea Calui"]
   favicon = "favicon/favicon.ico"
   googleMapsLink = ""
