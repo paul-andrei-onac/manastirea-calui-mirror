@@ -28,6 +28,7 @@ disableHugoGeneratorInject = false
   [params.footer.info]
   heading = "Investim în viitorul tău! Proiect cofinanțat din Fondul European de Dezvoltare Regională prin Programul Operațional Regional 2014-2020"
   text = "Conținutul acestui material nu reprezintă în mod obligatoriu poziția oficială a Uniunii Europene sau a Guvernului României"
+  
   [[params.footer.links]]
     title = "www.inforegio.ro"
     url = "https://www.inforegio.ro"
@@ -38,6 +39,8 @@ disableHugoGeneratorInject = false
 
   [params.footer.contactInfo]
     address = "Şos. Frații Buzești nr. 209, sat Gura Căluiu, comuna Călui, judeţul Olt"
+    street = "Şos. Frații Buzești nr. 209, sat Gura Căluiu, comuna Călui"
+    city = "judeţul Olt"
     phone = "0249 / 421.026"
     fax = "0246 / 214.081"
     person = "Ieromonarh Macarie (Mirel DRÎMBĂ)"
