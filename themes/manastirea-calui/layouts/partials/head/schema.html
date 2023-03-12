@@ -1,3 +1,4 @@
+{{ if and (not .Site.IsServer) hugo.IsProduction }}
 {{ safeHTML "<script type=\"application/ld+json\">" }}
   {
     "@context": "https://schema.org/",
@@ -30,3 +31,4 @@
     } 
   }
 {{ safeHTML "</script>" }}
+{{ end }}
