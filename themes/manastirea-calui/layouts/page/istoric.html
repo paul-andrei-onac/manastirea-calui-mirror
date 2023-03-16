@@ -13,7 +13,7 @@
       <div class="col-lg-6">
         {{ .Content }}
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 text-center">
         {{ with .Params.page.image }}
         {{ range $index, $items := first 2 .items }}
         <img class="img-fluid mb-3" src="{{ .image }}" srcset="{{ .image }} 1x, {{ .image2x }} 2x" alt="{{ .title | markdownify }}"> 
