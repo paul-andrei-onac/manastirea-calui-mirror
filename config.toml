@@ -60,12 +60,12 @@ disableHugoGeneratorInject = false
 
   [[menu.main]]
     name = "Proiect SMIS 117849"
-    url = "/proiect-smis-119469/"
+    url = "/proiect-smis-117849/"
     weight = 30
 
   [[menu.main]]
     name = "Proiect SMIS 119469"
-    url = "/proiect-smis-117849/"
+    url = "/proiect-smis-119469/"
     weight = 40
 
   [[menu.main]]

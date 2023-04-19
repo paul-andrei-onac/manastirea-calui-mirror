@@ -1,11 +1,11 @@
 ---
-title: "Proiect SMIS 119469 | Mănăstirea Călui"
+title: "Proiect SMIS 117849 | Mănăstirea Călui"
 keywords: ["Manastirea Calui"]
 date: 2023-01-22T13:08:13+02:00
 draft: false
 type: page
 layout: proiect1
-slug: "proiect-smis-119469"
+slug: "proiect-smis-117849"
 sitemap_exclude: false
 
 sitemap:
@@ -18,7 +18,7 @@ sitemap:
 # Page
 #----------------------------------------------------/
 page:
-  title: "Proiect <span>SMIS </span>119469"
+  title: "Proiect <span>SMIS </span>117849"
 
 
 ---
