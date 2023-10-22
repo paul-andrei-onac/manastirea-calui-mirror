@@ -6,7 +6,7 @@ theme = "manastirea-calui"
 title = "Mănăstirea Călui"
 
 # website copyright
-copyright = ""
+copyright = "© 2023 Mănăstirea Călui"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultcontentlanguage = "ro"
