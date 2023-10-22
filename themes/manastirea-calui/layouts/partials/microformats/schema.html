@@ -1,4 +1,4 @@
-{{/*  {{ if and (not .Site.IsServer) hugo.IsProduction }}  */}}
+{{ if and (not .Site.IsServer) hugo.IsProduction }}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
@@ -72,35 +72,6 @@
   }
 </script>
 
-<!--Breadcrumbs-->
-<script type='application/ld+json'>
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement":
-    [
-      {{- $i := 1 }}
-      {{- range .Ancestors.Reverse }}
-      {
-        "@type": "ListItem",
-        "position": {{ $i }},
-      "name": "{{ .Title | safeJS | plainify }}",
-      "url": {{ .Permalink }},
-      "item": {{ .Permalink }}
-    },
-      {{- $i = add $i 1 -}}
-      {{ end }}
-      {
-        "@type": "ListItem",
-        "position": {{ $i }},
-      "name": "{{ .Title | safeJS | plainify }}",
-      "url": {{ .Permalink }},
-      "item": {{ .Permalink }}
-    }
-    ]
-  }
-</script>
-
 <!--About Page-->
 {{ if or .IsHome (eq .Layout "istoric") }}
 <script type="application/ld+json">
@@ -137,4 +108,4 @@
   }
 </script>
 {{ end }}
-{{/*  {{ end }}  */}}
+{{ end }}
