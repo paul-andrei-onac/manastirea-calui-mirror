@@ -1,10 +1,9 @@
 ---
 title: "Mănăstirea Călui"
-date: 2022-12-05T15:34:49+02:00
+date: 2022-12-05
 keywords: ["Manastirea Calui"]
 draft: false
 type: other
-layout:
 sitemap_exclude: false
 
 sitemap:

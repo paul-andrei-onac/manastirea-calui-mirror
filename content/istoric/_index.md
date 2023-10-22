@@ -1,8 +1,8 @@
 ---
 title: "Isto<span>ric</span>"
-keywords: ["Manastirea Calui"]
 date: 2023-01-25
 draft: false
+keywords: ["Manastirea Calui"]
 type: "page"
 layout: "istoric"
 sitemap_exclude: false

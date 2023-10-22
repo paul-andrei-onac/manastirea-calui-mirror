@@ -1,8 +1,8 @@
 ---
 title: "Proiect <span>SMIS</span> 119469"
-keywords: ["Manastirea Calui"]
 date: 2023-01-25
 draft: false
+keywords: ["Manastirea Calui"]
 type: "page"
 layout: "proiect2"
 url: "proiect-smis-119469"

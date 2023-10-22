@@ -1,8 +1,8 @@
 ---
 title: "Cont<span>act</span>"
-keywords: ["Manastirea Calui"]
 date: 2023-01-23
 draft: false
+keywords: ["Manastirea Calui"]
 type: "page"
 layout: "contact"
 sitemap_exclude: false

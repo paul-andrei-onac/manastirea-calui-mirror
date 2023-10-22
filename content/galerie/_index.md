@@ -1,8 +1,8 @@
 ---
 title: "Gale<span>rie</span>"
-keywords: ["Manastirea Calui"]
 date: 2023-01-22
 draft: false
+keywords: ["Manastirea Calui"]
 type: "page"
 layout: "gallery"
 sitemap_exclude: false
