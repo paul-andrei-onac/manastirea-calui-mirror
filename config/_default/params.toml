@@ -2,13 +2,9 @@ author = "Manastirea Calui"
 description = "Mânăstirea Călui se află pe malul Oltețului, în apropiere de Craiova, nu departe de comuna Oboga, comuna renumită pentru ceramica ei populară."
 keywords = ["Manastirea Calui"]
 favicon = "favicon/favicon.ico"
-googleMapsLink = ""
 googleTagManager = "GTM-M36G9ND"
-robotsActive = "index, follow"
-googleBotActive = "index,follow,snippet,archive"
-BotsInactive = "noindex, nofollow"
-themeColorLight = "#000"
-themeColorDark = "#fff"
+themeColorLight = "#000000"
+themeColorDark = "#ffffff"
 
 [verification]
 google = "7r3xw3xpjbnnTKzMX51NEr43B9QLqJ5rceAQgamZDvM"
