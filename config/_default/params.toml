@@ -10,6 +10,9 @@ BotsInactive = "noindex, nofollow"
 themeColorLight = "#000"
 themeColorDark = "#fff"
 
+[verification]
+google = "7r3xw3xpjbnnTKzMX51NEr43B9QLqJ5rceAQgamZDvM"
+
 [footer]
 [footer.info]
 heading = "Investim în viitorul tău! <br>Proiect cofinanțat din Fondul European de Dezvoltare Regională prin Programul Operațional Regional 2014-2020"
