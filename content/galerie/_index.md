@@ -1,23 +1,16 @@
 ---
-title: "Galerie | Mănăstirea Călui"
+title: "Gale<span>rie</span>"
 keywords: ["Manastirea Calui"]
-date: 2023-01-22T14:41:11+02:00
+date: 2023-01-22
 draft: false
-type: page
-layout: gallery
+type: "page"
+layout: "gallery"
 sitemap_exclude: false
 
 sitemap:
   changefreq: weekly
   filename: sitemap.xml
   priority: 1
-
-
-#----------------------------------------------------/
-# Page
-#----------------------------------------------------/
-page:
-  title: "Gale<span>rie</span>"
 
 #----------------------------------------------------/
 # Gallery

@@ -1,10 +1,10 @@
 ---
-title: "Istoric | Mănăstirea Călui"
+title: "Isto<span>ric</span>"
 keywords: ["Manastirea Calui"]
-date: 2023-01-25T22:53:20+02:00
+date: 2023-01-25
 draft: false
-type: page
-layout: istoric
+type: "page"
+layout: "istoric"
 sitemap_exclude: false
 
 sitemap:
@@ -17,9 +17,6 @@ sitemap:
 # Page
 #----------------------------------------------------/
 page:
-  title: "Isto<span>ric</span>"
-  description: ""
-
   image:
     items:
       
