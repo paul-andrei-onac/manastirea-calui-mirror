@@ -44,6 +44,17 @@ identifier  = ""
 weight      = 40
 
 [[main]]
+name        = "Digitalizare 3D"
+url         = "https://arenacad.websharecloud.com/?v=pv&t=p:default,c:panoramaview,h:f,m:t,pr:t&pv=pv1&pv1=vt:3d,u:b86e6f7c-f0ca-42db-bf6c-0caedcd7d363,cf:111.00,dh:f,st:f,cx:-47.10516,cy:-9.92792,cz:111.54110,p:5.46697,t:-0.09227&p=p:digitizare-manastire-gura-calui"
+pre         = ""
+post        = ""
+title       = "Digitalizare 3D"
+parent      = ""
+pageRef     = ""
+identifier  = ""
+weight      = 50
+
+[[main]]
 name        = "Galerie"
 url         = ""
 pre         = ""
@@ -52,7 +63,7 @@ title       = "Galerie"
 parent      = ""
 pageRef     = "/galerie"
 identifier  = ""
-weight      = 50
+weight      = 60
 
 [[main]]
 name        = "Contact"
@@ -63,4 +74,4 @@ title       = "Contact"
 parent      = ""
 pageRef     = "/contact"
 identifier  = ""
-weight      = 60
+weight      = 70
