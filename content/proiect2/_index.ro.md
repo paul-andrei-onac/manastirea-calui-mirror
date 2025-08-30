@@ -7,11 +7,9 @@ type: "page"
 layout: "proiect2"
 url: "proiect-smis-119469"
 slug: "proiect-smis-119469"
-sitemap_exclude: false
 
 sitemap:
   changefreq: weekly
   filename: sitemap.xml
   priority: 1
-
 ---
