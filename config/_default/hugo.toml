@@ -1,6 +1,6 @@
 # Documentation: https://gohugo.io/configuration/introduction/#configuration-directory
 
-baseURL = "https://manastirea-calui.ro"
+baseURL = "http://localhost:1313/"
 # website title
 title = "Mănăstirea Călui"
 
