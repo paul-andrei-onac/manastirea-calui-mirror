@@ -1,0 +1,7 @@
+# Documentation: https://gohugo.io/configuration/imaging/#processing-options
+
+anchor = 'Smart'
+bgColor = '#ffffff'
+hint = 'photo'
+quality = 100
+resampleFilter = 'Lanczos'

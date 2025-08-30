@@ -3,8 +3,6 @@ title: "Mănăstirea Călui"
 date: 2022-12-05
 keywords: ["Manastirea Calui"]
 draft: false
-type: other
-sitemap_exclude: false
 
 sitemap:
   changefreq: weekly
