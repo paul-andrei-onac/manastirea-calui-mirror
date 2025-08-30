@@ -3,9 +3,14 @@ keywords = ["Manastirea Calui"]
 favicon = "favicon/favicon.ico"
 googleTagManager = "GTM-M36G9ND"
 opengraph = "/og-image/manastirea-calui.jpg"
+googleSiteVerification = "7r3xw3xpjbnnTKzMX51NEr43B9QLqJ5rceAQgamZDvM"
 
-[verification]
-google = "7r3xw3xpjbnnTKzMX51NEr43B9QLqJ5rceAQgamZDvM"
+transpiler = 'libsass'
+
+[author]
+name = "Paul-Andrei Onac"
+email = "onac.paul.andrei@gmail.com"
+link = "mailto:onac.paul.andrei@gmail.com"
 
 [footer]
 [footer.info]
