@@ -1,102 +1,102 @@
-{{ define "body_classes" }} proiect-1-page {{ end }}
+{{- define "bodyClasses" -}} page-type-{{ .Type }} {{ .Kind }}-{{ .Type }} {{ .Page.LinkTitle | plainify | urlize -}} {{- end -}}
 
 {{ define "main" }}
 
-<section class="project-wrapper space-top space-bottom">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        {{ partial "titles" . }}
+  <section class="project-wrapper space-top space-bottom" aria-label="Section - {{ .LinkTitle | urlize }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          {{ partial "blocks/titles" . }}
+        </div>
       </div>
-    </div>
-    <div class="row space-top space-bottom">
-      <div class="col-lg-6">
-        <div class="card mb-3">
-          <div class="card-body">
-            <h2 class="card-title fs-5"><span class="fw-bold">Numele proiectului: </span>RESTAURARE, CONSOLIDARE ȘI CONSERVARE BISERICA CU HRAMUL "SF. NICOLAE", A MÂNĂSTIRII CĂLUI, TURNUL CLOPOTNIȚĂ, AMENAJARE INCINTĂ CU SISTEMATIZAREA VERTICALĂ A TERENULUI, REALIZARE INSTALAȚII ELECTRICE, TERMICE ȘI SANITARE, REALIZARE ILUMINAT ARHITECTURAL ȘI AMBIENTAL, REALIZAREA UNUI CORP ANEXĂ PENTRU GRUPURI SANITARE, REFACERE POARTĂ DE ACCES</h2>
-            <h3 class="card-subtitle mb-2 text-muted fs-6">Contract de finanțare nr. 1670 / 26.03.2018, cod SMIS 117849</h3>
-            <ol class="list-group list-group-flush">
-              <li class="list-group-item px-0">
-                <p class="mb-0">Denumirea beneficiarului: <span class="fw-bold">Mânăstirea Călui</span></p>
-              </li>
-              <p class="card-text mb-0"><small class="text-muted">Proiect finanțat prin PROGRAMUL OPERAȚIONAL REGIONAL 2014-2020</small></p>
-              <p class="card-text mb-0"><small class="text-muted">Axa prioritară 5 - Îmbunătățirea mediului urban și conservarea, protecția și valorificarea durabilă a patrimoniului cultural</small></p>
-              <p class="card-text mb-0"><small class="text-muted">Prioritatea de investiții 5.1 - Conservarea, protejarea, promovarea şi dezvoltarea patrimoniului natural şi cultural</small></p>
-              <li class="list-group-item px-0">
-                <p class="mb-0">Autoritatea de Management: <span>MINISTERUL INVESTIȚIILOR ȘI PROIECTELOR EUROPENE</span></p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0">Organism Intermediar: <span>Agenția pentru Dezvoltare Regională Sud Vest Oltenia</span></p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0">Perioada de implementare a proiectului: <span class="fw-bold">83 luni</span></p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0">Data de începere a proiectului: <span class="fw-bold">01.02.2017</span></p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0">Data de finalizare a proiectului: <span class="fw-bold">19.12.2023</span></p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0">Locul de implementare al proiectului este: <span class="fw-bold">Comuna Călui,</span> judeţul Olt</p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0">Valoarea totală a proiectului: <span class="fw-bold">7.831.852,39 </span>lei</p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0">Contribuția Uniunii Europene: <span class="fw-bold">6.442.428,30 </span>lei</p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0">Contribuție națională: <span class="fw-bold">1.136.899,11 </span>lei</p>
-              </li>
-            </ol>
-            <h3 class="card-text mb-2">Proiectul tehnic cuprinde următoarele lucrări:</h3>
-            <p class="card-text mb-2"><span class="fw-bold">Biserica Sf. Nicolae: </span>consolidare, conservare şi restaurare biserică, schimbare de şarpantă şi învelitoare; schimbarea sau restaurarea după caz a tâmplăriei exterioare; conservare și restaurare frescă și pictură exterioară; conservare și restaurare mobilier bisericesc; restaurarea pardoselii interioare; realizarea unui sistem de încălzire în pardoseală; actualizarea instalațiilor electrice și termice; realizarea de instalaţii ape pluviale, relizarea unui iluminat arhitectural exterior.</p>
-            <p class="card-text mb-2"><span class="fw-bold">Turn clopotniță: </span>consolidare, conservare şi restaurare obiectiv, schimbarea de şarpantă şi învelitoare; schimbarea tâmplăriilor exterioare; schimbarea pardoselii interioare; realizarea instalaţiilor electrice și termice adaptate nevoilor.</p>
-            <p class="card-text mb-2"><span class="fw-bold">Corp anexă: </span>realizarea unui corp anexă în lateralul turnului clopotniță - pentru asigurarea unui spațiu aferent grupurilor sanitare în incinta mânăstirii.</p>
-            <p class="card-text mb-2"><span class="fw-bold">Amenajarea incintei: </span>lucrări de realizare alei pietonale din piatră cubică sau dale din piatră cu acces la toate corpurile ansamblului; reamenajarea spațiilor verzi; restaurare și consolidare pietre funerare; sistematizarea amenajării propuse; realizarea unui sistem de iluminat arhitectural de exterior pentru expunerea corectă pe timp de noapte a tuturor obiectelor; amenajare cu mobilier urban (coșuri de gunoi și băncuțe, etc.); realizarea unui lumânărar ca mobilier urban; refacerea porții de acces.</p>
+      <div class="row space-top space-bottom">
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h2 class="card-title fs-5"><span class="fw-bold">Numele proiectului: </span>RESTAURARE, CONSOLIDARE ȘI CONSERVARE BISERICA CU HRAMUL "SF. NICOLAE", A MÂNĂSTIRII CĂLUI, TURNUL CLOPOTNIȚĂ, AMENAJARE INCINTĂ CU SISTEMATIZAREA VERTICALĂ A TERENULUI, REALIZARE INSTALAȚII ELECTRICE, TERMICE ȘI SANITARE, REALIZARE ILUMINAT ARHITECTURAL ȘI AMBIENTAL, REALIZAREA UNUI CORP ANEXĂ PENTRU GRUPURI SANITARE, REFACERE POARTĂ DE ACCES</h2>
+              <h3 class="card-subtitle mb-2 text-muted fs-6">Contract de finanțare nr. 1670 / 26.03.2018, cod SMIS 117849</h3>
+              <ol class="list-group list-group-flush">
+                <li class="list-group-item px-0">
+                  <p class="mb-0">Denumirea beneficiarului: <span class="fw-bold">Mânăstirea Călui</span></p>
+                </li>
+                <p class="card-text mb-0"><small class="text-muted">Proiect finanțat prin PROGRAMUL OPERAȚIONAL REGIONAL 2014-2020</small></p>
+                <p class="card-text mb-0"><small class="text-muted">Axa prioritară 5 - Îmbunătățirea mediului urban și conservarea, protecția și valorificarea durabilă a patrimoniului cultural</small></p>
+                <p class="card-text mb-0"><small class="text-muted">Prioritatea de investiții 5.1 - Conservarea, protejarea, promovarea şi dezvoltarea patrimoniului natural şi cultural</small></p>
+                <li class="list-group-item px-0">
+                  <p class="mb-0">Autoritatea de Management: <span>MINISTERUL INVESTIȚIILOR ȘI PROIECTELOR EUROPENE</span></p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0">Organism Intermediar: <span>Agenția pentru Dezvoltare Regională Sud Vest Oltenia</span></p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0">Perioada de implementare a proiectului: <span class="fw-bold">83 luni</span></p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0">Data de începere a proiectului: <span class="fw-bold">01.02.2017</span></p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0">Data de finalizare a proiectului: <span class="fw-bold">19.12.2023</span></p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0">Locul de implementare al proiectului este: <span class="fw-bold">Comuna Călui,</span> judeţul Olt</p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0">Valoarea totală a proiectului: <span class="fw-bold">7.831.852,39 </span>lei</p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0">Contribuția Uniunii Europene: <span class="fw-bold">6.442.428,30 </span>lei</p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0">Contribuție națională: <span class="fw-bold">1.136.899,11 </span>lei</p>
+                </li>
+              </ol>
+              <h3 class="card-text mb-2">Proiectul tehnic cuprinde următoarele lucrări:</h3>
+              <p class="card-text mb-2"><span class="fw-bold">Biserica Sf. Nicolae: </span>consolidare, conservare şi restaurare biserică, schimbare de şarpantă şi învelitoare; schimbarea sau restaurarea după caz a tâmplăriei exterioare; conservare și restaurare frescă și pictură exterioară; conservare și restaurare mobilier bisericesc; restaurarea pardoselii interioare; realizarea unui sistem de încălzire în pardoseală; actualizarea instalațiilor electrice și termice; realizarea de instalaţii ape pluviale, relizarea unui iluminat arhitectural exterior.</p>
+              <p class="card-text mb-2"><span class="fw-bold">Turn clopotniță: </span>consolidare, conservare şi restaurare obiectiv, schimbarea de şarpantă şi învelitoare; schimbarea tâmplăriilor exterioare; schimbarea pardoselii interioare; realizarea instalaţiilor electrice și termice adaptate nevoilor.</p>
+              <p class="card-text mb-2"><span class="fw-bold">Corp anexă: </span>realizarea unui corp anexă în lateralul turnului clopotniță - pentru asigurarea unui spațiu aferent grupurilor sanitare în incinta mânăstirii.</p>
+              <p class="card-text mb-2"><span class="fw-bold">Amenajarea incintei: </span>lucrări de realizare alei pietonale din piatră cubică sau dale din piatră cu acces la toate corpurile ansamblului; reamenajarea spațiilor verzi; restaurare și consolidare pietre funerare; sistematizarea amenajării propuse; realizarea unui sistem de iluminat arhitectural de exterior pentru expunerea corectă pe timp de noapte a tuturor obiectelor; amenajare cu mobilier urban (coșuri de gunoi și băncuțe, etc.); realizarea unui lumânărar ca mobilier urban; refacerea porții de acces.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title fw-bold fs-5">Obiectivele proiectului:</h3>
+            </div>
+            <div class="card-body">
+              <p class="card-text"><span class="fw-bold">Obiectivul general</span> al proiectului este restaurarea, conservarea, protejarea și menținerea stilului arhitectonic al Bisericii Sf. Nicolae - Mânăstirea Călui, județul Olt, ca premisă a dezvoltării turismului cultural și religios, factor ce stimulează dezvoltarea economică a regiunii Sud Vest Oltenia, păstrarea culturii tradiționale românești, respectând principiile dezvoltării durabile și protecției mediului.</p>
+              <h3 class="card-text">Obiectivele specifice ale proiectului sunt:</h3>
+              <ol class="list-group list-group-flush">
+                <li class="list-group-item px-0">
+                  <p class="mb-0 fw-bold">1. <span class="fw-normal">Restaurarea și conservarea în următorii 3 ani a Bisericii Sf. Nicolae - Mânăstirea Călui, județul Olt, ca premisă a creșterii turismului cultural în zona Sud Vest Oltenia și regiunea SUERD.</span></p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0 fw-bold">2. <span class="fw-normal">Introducerea în următorii 3 ani în minim 2 circuite turistice- unul național și unul internațional, în vederea creșterii numărului de turiști în regiunea SUERD;</span></p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0 fw-bold">3. <span class="fw-normal">Diversificarea serviciilor cultural-religioase oferite de Mânăstirea Călui - prin organizarea și desfășurarea a minim 3 evenimente anuale periodice, cu accent pe păstrarea tradițiilor regionale ale zonei SUERD.</span></p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0 fw-bold">4. <span class="fw-normal">Întărirea instituțională în următorii 2 ani prin crearea și dezvoltarea unui parteneriat extins pentru creșterea importanței economice și sociale locale.</span></p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0 fw-bold">5. <span class="fw-normal">Creșterea gradului de informare și interes pentru cultură a comunității locale și a populației din zona Sud Vest Oltenia.</span></p>
+                </li>
+              </ol>
+              <h3 class="card-text">Rezultatele așteptate în urma implementării proiectului sunt:</h3>
+              <ol class="list-group list-group-flush">
+                <li class="list-group-item px-0">
+                  <p class="mb-0 fw-bold">- <span class="fw-normal">creșterea numărului de vizitatori;</span></p>
+                </li>
+                <li class="list-group-item px-0">
+                  <p class="mb-0 fw-bold">- <span class="fw-normal">numărul de obiective de patrimoniu restaurate/protejate/conservate: 1 monument restaurat.</span></p>
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="card">
-          <div class="card-header">
-            <h3 class="card-title fw-bold fs-5">Obiectivele proiectului:</h3>
-          </div>
-          <div class="card-body">
-            <p class="card-text"><span class="fw-bold">Obiectivul general</span> al proiectului este restaurarea, conservarea, protejarea și menținerea stilului arhitectonic al Bisericii Sf. Nicolae - Mânăstirea Călui, județul Olt, ca premisă a dezvoltării turismului cultural și religios, factor ce stimulează dezvoltarea economică a regiunii Sud Vest Oltenia, păstrarea culturii tradiționale românești, respectând principiile dezvoltării durabile și protecției mediului.</p>
-            <h3 class="card-text">Obiectivele specifice ale proiectului sunt:</h3>
-            <ol class="list-group list-group-flush">
-              <li class="list-group-item px-0">
-                <p class="mb-0 fw-bold">1. <span class="fw-normal">Restaurarea și conservarea în următorii 3 ani a Bisericii Sf. Nicolae - Mânăstirea Călui, județul Olt, ca premisă a creșterii turismului cultural în zona Sud Vest Oltenia și regiunea SUERD.</span></p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0 fw-bold">2. <span class="fw-normal">Introducerea în următorii 3 ani în minim 2 circuite turistice- unul național și unul internațional, în vederea creșterii numărului de turiști în regiunea SUERD;</span></p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0 fw-bold">3. <span class="fw-normal">Diversificarea serviciilor cultural-religioase oferite de Mânăstirea Călui - prin organizarea și desfășurarea a minim 3 evenimente anuale periodice, cu accent pe păstrarea tradițiilor regionale ale zonei SUERD.</span></p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0 fw-bold">4. <span class="fw-normal">Întărirea instituțională în următorii 2 ani prin crearea și dezvoltarea unui parteneriat extins pentru creșterea importanței economice și sociale locale.</span></p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0 fw-bold">5. <span class="fw-normal">Creșterea gradului de informare și interes pentru cultură a comunității locale și a populației din zona Sud Vest Oltenia.</span></p>
-              </li>
-            </ol>
-            <h3 class="card-text">Rezultatele așteptate în urma implementării proiectului sunt:</h3>
-            <ol class="list-group list-group-flush">
-              <li class="list-group-item px-0">
-                <p class="mb-0 fw-bold">- <span class="fw-normal">creșterea numărului de vizitatori;</span></p>
-              </li>
-              <li class="list-group-item px-0">
-                <p class="mb-0 fw-bold">- <span class="fw-normal">numărul de obiective de patrimoniu restaurate/protejate/conservate: 1 monument restaurat.</span></p>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
 
 {{ end }}
