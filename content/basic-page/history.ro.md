@@ -13,13 +13,9 @@ page:
   image:
     items:
       - title: "Manastirea Calui"
-        link: ""
-        image: "/carousel/gallery-1.jpg"
-        image2x: "/carousel/gallery-1@2x.jpg"
+        image: "/images/featured/gallery-1@2x.jpg"
       - title: "Manastirea Calui"
-        link: ""
-        image: "/carousel/gallery-2.jpg"
-        image2x: "/carousel/gallery-2@2x.jpg"
+        image: "/images/featured/gallery-2@2x.jpg"
 ---
 
 **Mânastirea Călui** se află în localitatea cu același nume, amplasată pe malul Oltețului, pe traseul Balș-Oboga, comună renumită pentru ceramica ei populară. Așezământul monahal, înconjurat de un puternic zid de cărămidă, cărămidă adusă de pe malul Oltețului și cărată din mână în mână pe o distanță de un kilometru, a fost întemeiată între anii 1516-1521, în timpul domniei lui Neagoe Basarab (1512-1521), de către banul Vlad și frații săi, Dumitru și Bălică. Primii ctitori au ridicat edificiul până la nivelul temeliilor, dar, din cauza instabilității politice care a urmat domniei lui Neagoe Basarab, nu l-au putut probabil termina. Mânăstirea Călui, cu hramul Sfântul Nicolae, a fost refăcută de către boierii Craiovești. Restaurarea și înfrumusețarea ei au fost făcute de către frații Buzești în perioada 20 aprilie - 8 iunie 1588, atunci când au fost edificate și corpurile de chilii, după cum precizează pisania săpată în piatră, așezată deasupra ușii de la intrarea în biserică. Ulterior, monumentului i s-a adaugat un exonartex, mărginit de arcade laterale.

@@ -12,14 +12,8 @@ page:
   description: ""
   image:
     items:
-      - title: "Mănăstirea Călui"
-        link: ""
-        image: "/carousel/gallery-1.jpg"
-        image2x: "/carousel/gallery-1@2x.jpg"
-      - title: "Mănăstirea Călui"
-        link: ""
-        image: "/carousel/gallery-2.jpg"
-        image2x: "/carousel/gallery-2@2x.jpg"
+      - title: "Manastirea Calui"
+        image: "/images/featured/gallery-1@2x.jpg"
 ---
 
 **Mănăstirea Călui** se află pe malul Oltețului, în apropiere de Craiova, nu departe de comuna Oboga, comună renumită pentru ceramica ei populară. Așezământul monahal, înconjurat de un puternic zid de cărămidă, a fost întemeiată între anii 1516-1521, în timpul domniei lui Neagoe Basarab (1512-1521), de către banul Vlad și frații săi, Dumitru și Bălică. Primii ctitori au ridicat edificiul până la nivelul temeliilor, dar nu l-au putut probabil termina. Mânastirea Călui, cu hramul Sfântul Nicolae, a fost ridicată de către boierii Craiovești, apoi a fost restaurată și înfrumusețată de frații Buzești în perioada 20 aprilie -- 8 iunie 1588, atunci când au fost inființate și corpurile de chilii, după cum precizează pisania săpată în piatră deasupra ușii de la intrarea bisericii.
