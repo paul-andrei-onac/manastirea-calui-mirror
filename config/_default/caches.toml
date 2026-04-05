@@ -2,10 +2,10 @@
 
 [assets]
 dir = ':resourceDir/_gen'
-maxAge = 0
+maxAge = -1
 [images]
 dir = ':resourceDir/_gen'
-maxAge = 0
+maxAge = -1
 [getresource]
 dir = ':cacheDir/:project'
 maxAge = 0
